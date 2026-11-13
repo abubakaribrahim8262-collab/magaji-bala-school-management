@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Magaji Bala Primary School</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f1f5f1;
+}
+
+header {
+    background: #087443;
+    color: white;
+    padding: 25px 15px;
+    text-align: center;
+}
+
+header h2 {
+    margin: 5px;
+}
+
+.container {
+    padding: 20px;
+}
+
+.dashboard {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.card {
+    background: white;
+    padding: 25px 10px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px #ccc;
+    color: #087443;
+    font-weight: bold;
+}
+
+.card span {
+    display: block;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: #087443;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #666;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h2>MAGAJI BALA PRIMARY SCHOOL</h2>
+    <p>YARI-BORI, KATSINA STATE</p>
+    <h3 style="color:white">SCHOOL MANAGEMENT SYSTEM</h3>
+</header>
+
+<div class="container">
+
+<h3>Admin Dashboard</h3>
+
+<div class="dashboard">
+
+<div class="card">
+<span>👨‍🎓</span>
+Students
+</div>
+
+<div class="card">
+<span>👨‍🏫</span>
+Teachers
+</div>
+
+<div class="card">
+<span>🏫</span>
+Classes
+</div>
+
+<div class="card">
+<span>📅</span>
+Attendance
+</div>
+
+<div class="card">
+<span>📝</span>
+Examinations
+</div>
+
+<div class="card">
+<span>📊</span>
+Results
+</div>
+
+<div class="card">
+<span>💰</span>
+School Fees
+</div>
+
+<div class="card">
+<span>📄</span>
+Report Cards
+</div>
+
+</div>
+</div>
+
+<footer>
+Magaji Bala Primary School © 2026
+</footer>
+
+</body>
+</html>
